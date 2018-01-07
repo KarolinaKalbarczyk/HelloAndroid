@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kk.helloandroid.MainActivity">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/obrazek"
+            android:layout_width="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_height="200dp"
+            android:src="@drawable/udacity" />
+
+        <TextView
+            android:id="@+id/udacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/obrazek"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:text="@string/udacity"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/udacity"
+            android:paddingLeft="15dp"
+            android:paddingTop="30dp"
+            android:text="@string/_650_555_5555"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/strona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/numer"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:text="@string/www_udacity_com"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/strona"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:text="@string/_2465_latham_st_mountain_view_ca_94043"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
